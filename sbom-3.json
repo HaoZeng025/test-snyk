@@ -1,0 +1,36 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:abcdef12-3456-7890-abcd-ef1234567890",
+  "version": 1,
+  "components": [
+    {
+      "bom-ref": "pkg:pypi/requests@2.19.0",
+      "type": "library",
+      "name": "requests",
+      "version": "2.19.0",
+      "purl": "pkg:pypi/requests@2.19.0"
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "id": "CVE-2018-18074",
+      "source": {
+        "name": "NVD"
+      },
+      "ratings": [
+        {
+          "score": 8.8,
+          "severity": "high",
+          "method": "CVSSv3"
+        }
+      ],
+      "description": "The Requests package before 2.20.0 sends an HTTP Authorization header to an http URI upon receiving a same-hostname https-to-http redirect...",
+      "affects": [
+        {
+          "ref": "pkg:pypi/requests@2.19.0"
+        }
+      ]
+    }
+  ]
+}
