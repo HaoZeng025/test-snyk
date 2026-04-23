@@ -1,0 +1,5 @@
+# 這是用於測試 Snyk SCA 掃描的已知漏洞清單
+requests==2.25.1
+urllib3==1.25.10
+jinja2==2.11.2
+PyYAML==5.3.1
